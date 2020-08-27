@@ -5,6 +5,8 @@
 }
 body{
     font-family: "Montserrat" , arial;
+    overflow-x: hidden;
+   
 }
 header{
     width: 100%;
@@ -130,5 +132,67 @@ nav ul li {
     border-radius: 15px;
     box-shadow: 5px 1px 5px black;
     font-size:15px;
+    text-align: center;
+}
+
+.pontos{
+    width:100vw;
+    height: 20px;
+    
+    position:absolute;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .bolinhas{
+    width:15px;
+    height: 15px;
+    border:2px solid #b28756;
+    border-radius: 7px;
+    margin-left:10px;
+    cursor: pointer;
+}
+
+.ativado{
+    background: #B28756;
+}
+
+.dark{
+    background-color:black;
+    color:white;
+}
+
+.white{
+     background-color:white;
+     color:black;
+}
+
+.padrao{
+    background-color: red;
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+
+.titulo{
+    text-align: center;
+    font-weight: 600;
+    font-size:30px;
+    text-transform: uppercase;
+    
+}
+
+.descricao{
+    text-align: center;
+    font-size:20px;
+    color:	#C0C0C0BB;
+    text-transform: uppercase;
+    
+
+}
+
+.corpo{
+    max-width:1140;
     text-align: center;
 }
