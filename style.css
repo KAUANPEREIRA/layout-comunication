@@ -295,3 +295,82 @@ h4{
     font-size:15px;
     color:#999;
 }
+
+.filtros ul{
+    list-style: none;
+    display:inline-flex;
+    border:1px solid #C0C0C0;
+    border-radius:10px;
+    background-color: #DCDCDCbb;
+    cursor: pointer;
+    font-size:13px;
+}
+
+.filtros li{
+    padding: 10px;
+    border-left:1px solid #c0c0c0;
+    text-transform: uppercase;
+    color:#555;
+    
+}
+
+.filtros ul li:hover {
+    border-bottom: 3px solid #b28756 ;
+}
+
+.filtros li:first-child{
+    border-left:0px;
+}
+
+
+.fotos{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    width:100vw;
+    max-width: 1140px;
+   
+    flex-wrap: wrap;
+}
+
+.foto{
+    width:280px;
+    flex:1;
+   
+}
+
+.fotoArea{
+    margin: 10px;
+    width:260px;
+    height: 160px;
+}
+
+.fotoArea img{
+    width: inherit;
+    height: inherit;
+}
+
+.fotoInfo{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: inherit;
+    height: inherit;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:#fff;
+}
+.fotoInfo p{
+    font-size:13px;
+    margin-top:7px;
+}
+
+.fotoInfo h5{
+    font-size:18px;
+    font-weight: 600;
+}
+
+.fotoArea:hover .fotoInfo{
+    display: flex;
+}
