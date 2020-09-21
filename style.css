@@ -226,6 +226,8 @@ nav ul li {
 
 
 
+
+
 /*
 OUTRA PARTE
 */
@@ -507,7 +509,354 @@ h4{
     background-color:#b28756;
 }
 
+.clientes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tituloCl{
+    font-weight: 600;
+    font-size:21px;
+    margin-bottom: 10px;
+   
+}
+
+.miniTiTu{
+    color:#C0C0C0;
+    margin-bottom: 15px;
+}
+.nome{
+    font-weight: bold;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+.frase{
+    margin-top:7px;
+    margin-bottom: 10px;
+    font-size:16px;
+    font-weight: initial;
+}
+.fraseMaior{ 
+  text-align: justify;
+  line-height: 1.6;
+  color:gray;
+    
+    width:400px
+}
+
+.clientes .pontos{
+    
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    margin-left: -5px;
+    margin-top:500px;
+    margin-bottom: 1px;
+}
+
+.clientes .bolinhas{
+    width:15px;
+    height: 15px;
+    border:2px solid #b28756;
+    border-radius: 7px;
+    margin-left:10px;
+    cursor: pointer;
+    
+}
+
+.marcas{
+    width:100%;
+    height: 100px;
+    
+    margin-top:110px;
+    border:1px solid #DCDCDC;
+    box-shadow: 5px 5px 5px gray;
+    margin-bottom:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marcas ul {
+    list-style: none;
+
+}
+
+.marcas ul li {
+    display:inline-flex;
+    padding:10px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+.precos{
+    width:100%;
+    height: 500px;
+    background-color: #DCDCDCBB;
+    
+    
+}
+
+.preco{
+    display: flex;
+   justify-content: center;
+   
+   
+   padding: 5px;
+   font-size: 25px;
+   margin-top: 20px;
+  
+  
+ 
+}
+.valores{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.vf{
+    width:300px;
+    height: 400px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    
+    margin-left: 10px;
+}
+
+.frase1{
+    font-weight: 600;
+    margin-top:70px;
+    margin-bottom: 10px;
+}
+
+.denero{
+    font-weight: 600;
+    font-size:25px;
+}
+
+.n1{
+    color:	#C0C0C0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.n2{
+    color:	#C0C0C0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size:12px;
+}
+
+.n3{
+    color:	#C0C0C0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.vf a {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    width: 150px;
+    height: 70px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.premioo{
+    width:100%;
+    height: 400px;
+    
+    
+    
+}
+
+.frasePremio{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.f2{
+    font-size: 14px;
+    color: #c0c0c0;
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.premioo span{
+    font-size: 18px;
+    font-weight: 600;
+}
+ .imagem{
+     display: flex;
+     justify-content: center;
+     margin-top:10px;
+ }
+
+ .textos ul li {
+     list-style: none;
+     margin-bottom: 15px;
+     margin-top:15px;
+     color:#c0c0c0;
+     font-size:14px;
+ }
+
+ .textos ul li span {
+     color:black;
+ }
+
+ .numeros{
+     font-size: 50px;
+     font-weight: 700;
+     color:#b28756;
+ }
 
 
+.nf{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
 
+.nf1{
+    font-size: 14px;
+    color:#C0C0C0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+
+.formNome{
+    
+    display: flex;
+    justify-content: center;
+    
+  
+}
+
+#nome{
+    width: 250px;
+    height: 55px;
+    border: none;
+    margin-right: 14px;
+
+    border-bottom: 1px solid gray;
+
+}
+
+#sobreN{
+    width: 250px;
+    border: none;
+    
+
+    border-bottom: 1px solid gray;
+
+}
+
+
+#email{
+    width:540px;
+    height: 55px;
+    border: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+
+    border-bottom: 1px solid gray;
+}
+
+.formMail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -1px;
+    flex-direction: column;
+}
+
+.formMail a{
+    text-decoration:none;
+    font-size:15px;
+    
+    border-bottom:0px;
+    width:130px;
+    height: 50px;
+    background-color:#b28756;
+    color:#fff;
+    padding: 10px;
+    margin-top:15px;
+    border-radius:10px;
+
+}
+
+.vf a:hover {
+    background-color: #b28756;
+    border-bottom: #b28756;
+}
+
+.mapa{
+    background-image: url('./imagens/complementos/mapa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height: 400px;
+    
+}
+.mapaArea{
+    width:100vw;
+    max-width:1140px;
+    margin: auto;
+    
+    
+
+}
+
+.mapaConteudo{
+    width:500px;
+    height: 300px;
+    padding: 30px;
+    background-color:#fff;
+    margin-top: 30px;
+
+}
+
+.mapaConteudo ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    color: #C0C0C0;
+    font-size: 14px;
+
+}
+
+.mapaConteudo ul li img{
+    width:20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color:gray;
+    
+}
 
