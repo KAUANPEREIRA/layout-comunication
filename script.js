@@ -1,11 +1,4 @@
-let pessoa ={nome:'kauan',sobrenome:'pereira',idade:'18'}
+let pecas=['roda','banco','volante']
+let pecasE=[...pecas,'portaluva','cambio']
 
-let maisDados ={
-    ...pessoa,
-    profissao:'programador',
-    carro:'corsa',
-    formado:'ainda n'
-
-}
-
-console.log(maisDados)
+console.log(pecasE)

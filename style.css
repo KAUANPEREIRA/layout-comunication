@@ -12,14 +12,17 @@ header{
     width: 100%;
     height: 100px;
     background-color: black;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header{
-    max-width: 1140px;
+   width:100%;
     height: 100px;
     color:white;
     display: flex;
     align-items: center;
+    
     
     margin: auto;
     
@@ -30,6 +33,7 @@ header{
     height: 80px;
     border-radius: 40px;
     background-color: #B28756;
+    margin-left: 35px;
 }
 
 .logo{
@@ -40,6 +44,7 @@ header{
     display: flex;
     flex:1;
     justify-content: flex-end;
+    margin-right: 100px;
 }
 
 nav ul {
@@ -205,6 +210,19 @@ nav ul li {
     margin:auto;
     
 }
+.cinza{
+    width:100%;
+    height: 3px;
+    background-color: gray;
+}
+
+footer{
+   width: 100%;
+    height: 300px;
+    background-color: black;
+}
+
+
 
 
 
@@ -860,3 +878,340 @@ h4{
     
 }
 
+.lado1{
+    display: flex;
+    margin-left: 100px;
+   
+    
+}
+
+.lado1 ul li  {
+    margin-top: 20px;
+    background-color: gray;
+    width:40px;
+    list-style: none;
+    display: inline-flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 4px;
+   
+   
+    
+}
+
+.ladoCentro{
+    width:400px;
+    height: 300px;
+   
+}
+
+.ladoCentro p{
+    color:gray;
+    font-size:14px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    line-height: 1.5;
+}
+.Formfim{
+    margin-left: 40px;
+    width:400px;
+    height: 250px;
+    background-color: #696969;
+}
+
+footer{
+    display: flex;
+}
+
+#emailo{
+    width: 200px;
+    height: 50px;
+    background-color: #696969;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-style: none;
+    border-bottom: 1px solid white;
+}
+
+.Formfim a{
+    width:75px;
+    height: 75px;
+    background-color:#b28756 ;
+    border-bottom: 0px;
+    border-radius: 75px;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.mm{
+    display: none;
+}
+
+@media (min-width:450px) and (max-width:800px){
+   nav{
+       position: absolute;
+       z-index: 99;
+       background-color: rgba(0, 0, 0, 0.7);
+       display: none;
+       
+       
+       top:100px;
+       right: 1px;
+       
+     width: 200px;}
+
+       
+       
+  
+
+   nav a {
+       border-bottom: 0px solid ;
+   }
+
+   .menu{
+       justify-content: center;
+       align-items: center;
+   }
+    .corpoAbout{
+        display: flex;
+        flex-direction: column-reverse;
+    
+    }
+    .corpoleft{
+       margin-top:20px;
+       margin-bottom: 10px;
+    }
+    .corporigth {
+       margin-left: 110px;
+        
+    }
+    .corpoleft p{
+        width:320px;
+        text-align: justify;
+        margin:auto;
+    }
+
+    .corpoleft a{
+       padding:10px;
+        margin:auto;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu li a {
+        margin-left: 30px;
+    }
+    .mm{
+        display: block;
+        width:45px;
+        margin-left: 580px;
+    }
+
+    .tracinho{
+        display: none;
+    }
+
+   .sumir{
+        display: none;
+    }
+    .sumira{
+        display:none;
+    }
+
+    .team .pontos{
+        margin-left: 35px;
+    }
+
+    .marcas{
+       display: none;
+    }
+
+    .preco{
+        margin-top: 50px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .ladofim{
+        width:200px;
+    }
+}
+
+
+.sumir{
+    display:none;
+}
+@media (max-width:450px){
+ nav{
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.7);
+        display: none;
+        
+        
+        top:100px;
+        right: 1px;
+        
+      width: 200px;}
+    .slidearea h1{
+        font-size: 30px;
+    }
+
+     .slidearea h2{
+        font-size: 20px;
+    }
+        
+        
+   
+ 
+    nav a {
+        border-bottom: 0px solid ;
+    }
+ 
+    .menu{
+     margin-right: -305px;
+
+    }
+     .corpoAbout{
+         display: flex;
+         flex-direction: column-reverse;
+         margin-left:10px;
+     
+     }
+     .corpoleft{
+        margin-top:20px;
+        margin-bottom: 10px;
+     }
+     .corporigth {
+        margin-left: 10px;
+        box-shadow: 0px 0px 0px white;
+        
+         
+     }
+     .corporigth img{
+        width:50%;
+        margin-left:-130px;
+    }
+
+    .filtros{
+        display: none;
+    }
+
+    .sliders .slide{
+        margin-bottom:10px;
+    }
+    
+     .corpoleft p{
+         width:320px;
+         text-align: justify;
+         margin:auto;
+     }
+ 
+     .corpoleft a{
+        padding:10px;
+         margin:auto;
+     }
+ 
+     .menu ul {
+         flex-direction: column;
+     }
+ 
+     .menu li a {
+         margin-left: 30px;
+     }
+     .mm{
+         display: block;
+         width:45px;
+         margin-left: 200px;
+     }
+ 
+     .tracinho{
+         display: none;
+     }
+ 
+    .sumir{
+         display: none;
+     }
+     .sumira{
+         display:none;
+     }
+ 
+     .team .pontos{
+         margin-left: 19px;
+     }
+
+     .fraseMaior{
+         display: none;
+     }
+
+     .valores{
+         display: flex;
+         flex-direction: column;
+        
+     }
+     .vf{
+         margin-bottom: 10px;
+     }
+
+     .premioo{
+         font-size: 16px;
+     }
+     .imagem img{
+       display: none;
+     }
+     .precos{
+         height: 1000px;
+     }
+
+     .frase{
+         margin-left: 10px;
+     }
+
+     .clientes .pontos{
+         margin-top: 390px;
+     }
+ 
+     .marcas{
+        display: none;
+     }
+ 
+     .preco{
+         margin-top: 50px;
+     }
+ 
+     footer{
+         display: flex;
+         flex-direction: column;
+     }
+     .ladofim{
+         width:200px;
+     }
+
+     #email{
+         width:50%;
+     }
+
+     .ladoCentro{
+         display: none;
+     }
+     .Formfim {
+        margin:auto;
+       height: 300px;
+       width: 300px;
+        background-color: #696969;
+    }
+
+    .lado1{
+        display: none;
+    }
+   body{
+       overflow-x: hidden;
+   }
+
+ }
